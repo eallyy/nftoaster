@@ -1,0 +1,36 @@
+{
+  "layers": [
+    {
+      "name": "Background",
+      "values": ["Argon", "Digital Water", "Lithium", "Orange Coral", "Orange Fun", "Rainbow Blue"],
+      "trait_path": "./trait-layers/backgrounds",
+      "filename": ["argon", "digital_water", "lithium", "orange_coral", "orange_fun", "rainbow_blue"],
+      "weights": [10, 20, 10, 20, 20, 20]
+    },
+    {
+      "name": "Toaster",
+      "values": ["Normal Toaster", "Gold Toaster"],
+      "trait_path": "./trait-layers/toasters",
+      "filename": ["toaster", "gold_toaster"],
+      "weights": [90, 10]
+    },
+    {
+      "name": "Text",
+      "values": ["Normal", "Ocean Blue", "Lime Green", "Galaxy Purple", "Dark Cherry"],
+      "trait_path": "./trait-layers/texts",
+      "filename": ["normal", "ocean_blue", "lime_green", "galaxy_purple", "dark_cherry"],
+      "weights": [20, 20, 20, 20, 20]
+    }
+  ],
+  "incompatibilities": [
+    {
+      "layer": "Toaster",
+      "value": "Gold Toaster",
+      "incompatible_with": ["Normal"]
+    }
+  ],
+  "baseURI": ".",
+  "name": "NFT #",
+  "description": "This is a description for this NFT collection.",
+  "external_url": "example.com"
+}
